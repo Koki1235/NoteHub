@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteHub</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/images/dark-favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+<nav class="nav">
+    <div class="nav-content">
+        <a href="#" class="logo">
+            <i class="fas fa-pencil-alt"></i>
+            NoteHub
+        </a>
+        <button class="menu-btn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#how-it-works">How it Works</a>
+            <a href="#about-contact">Contact</a>
+            <a href="#" class="lang-btn" id="translate-btn"><i class="fas fa-language"></i> БГ</a>
+        </div>
+    </div>
+</nav>
+
+    <header class="header">
+        <img src="assets/images/1.png" alt="Background" class="header-bg">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="header-title">Capture Your Ideas</h1>
+            <p class="header-subtitle">The smart way to organize your thoughts and boost productivity</p>
+            <div class="cta-buttons">
+                <a href="login.html" class="cta-btn cta-primary">Get Started Free</a>
+                <a href="#features" class="cta-btn cta-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <section id="features" class="features">
+        <h2 class="section-title">Powerful Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-pen-to-square feature-icon"></i>
+                <h3>Smart Notes</h3>
+                <p>Create, edit, and organize your notes with our intuitive interface. Supporting markdown, rich text, and code snippets.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-cloud feature-icon"></i>
+                <h3>Cloud Sync</h3>
+                <p>Access your notes from anywhere with seamless cloud synchronization across all your devices.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-lock feature-icon"></i>
+                <h3>Secure Storage</h3>
+                <p>Your notes are encrypted and safely stored in our secure servers with regular backups.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-tags feature-icon"></i>
+                <h3>Smart Tags</h3>
+                <p>Organize your notes with intelligent tagging system and powerful search capabilities.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users feature-icon"></i>
+                <h3>Theme Customization</h3>
+                <p>Personalize the interface with customizable themes, including font size, colors, and layout preferences.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt feature-icon"></i>
+                <h3>Mobile Ready</h3>
+                <p>Seamlessly adapt to any screen size for optimal usability on mobile, tablet, and desktop devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+        <h2 class="section-title">Experience the Future of Note-Taking</h2>
+        <div class="showcase-container">
+            <div class="showcase-tabs">
+                <div class="showcase-tab active" data-tab="1">Smart Editor</div>
+                <div class="showcase-tab" data-tab="2">Organization</div>
+                <div class="showcase-tab" data-tab="3">Collaboration</div>
+            </div>
+            <div class="showcase-content active" data-content="1">
+                <div class="showcase-text">
+                    <h3>Intelligent Note Editor</h3>
+                    <p>Experience writing at its finest with our advanced editor that adapts to your needs.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Rich text formatting with markdown support</li>
+                        <li><i class="fas fa-check"></i> Code syntax highlighting</li>
+                        <li><i class="fas fa-check"></i> Smart formatting suggestions</li>
+                        <li><i class="fas fa-check"></i> Real-time preview</li>
+                    </ul>
+                </div>
+                <div class="showcase-image">
+                    <img src="assets/images/Blue and White Minimalist Marble Personal Note Card (1).png" alt="Smart Editor Interface">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-container">
+            <div class="step-line"></div>
+            <div class="step">
+                <div class="step-content">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up Instantly</h3>
+                    <p>Create your free account in seconds and start taking notes right away. No credit card required.</p>
+                </div>
+                <div class="step-image">
+                    <img src="assets/images/login.png" alt="Sign Up Process">
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-content">
+                    <div class="step-number">2</div>
+                    <h3>Create Your First Note</h3>
+                    <p>Use our intuitive editor to capture your thoughts. Organize them with tags and folders.</p>
+                </div>
+                <div class="step-image">
+                    <img src="assets/images/main.png" alt="Note Creation">
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-content">
+                    <div class="step-number">3</div>
+                    <h3>Sync Across Devices</h3>
+                    <p>Access your notes from anywhere. Changes sync automatically across all your devices.</p>
+                </div>
+                <div class="step-image">
+                    <img src="assets/images/laptop.png" alt="Cross-device Sync">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-contact" class="about-contact">
+        <div class="about-contact-container">
+            <div class="about-content">
+                <div class="profile-photo">
+                    <img src="assets/images/user.png" alt="Profile Photo">
+                </div>
+                <div class="profile-info">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hi, I'm Kaloyan Vasilev, the creator of NoteHub. As a software developer and productivity enthusiast, I built NoteHub to solve the challenges I faced with existing note-taking solutions.</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2 class="section-title">Get in Touch</h2>
+                <form method="POST" id="form">
+                    <input type="hidden" name="access_key" value="8f2cee6d-175c-4e36-baf2-e9b376fcd7e9">
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <div id="result"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>NoteHub</h3>
+                <p>Making note-taking smarter and more productive.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#how-it-works">How it Works</a></li>
+                    <li><a href="#about-contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 2rem;">&copy; 2024 NoteHub. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/translate.js" defer></script>
+</body>
+</html>
